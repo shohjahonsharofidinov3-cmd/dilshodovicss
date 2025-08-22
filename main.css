@@ -1,83 +1,75 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    background-color: #ffffff;
+    margin: 20px;
 }
 
-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 20px 10px;
+/* Sarlavha */
+h1 {
+    background-color: peachpuff;
+    color: blue;
     text-align: center;
-    /* Faqat header markazga */
+    padding: 15px;
 }
 
-.logo {
-    width: 150px;
-    margin: 20px auto;
-    display: block;
+/* Qizil kichik sarlavhalar */
+.red {
+    color: rgb(245, 0, 0);
 }
 
-header p {
-    font-size: 14px;
+/* Bo'limlar */
+.section {
+    margin-top: 30px;
+    padding: 15px;
 }
 
-section {
-    padding: 20px 40px;
-    text-align: left;
-    /* Boshqa barcha bo‘limlar chapga */
-}
-
-.contact form {
-    display: block;
-    max-width: 400px;
-}
-
-.contact input,
-.contact textarea {
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 10px;
-    font-size: 16px;
-    box-sizing: border-box;
-}
-
-.contact button {
-    padding: 10px;
-    background-color: #4CAF50;
+.darkgreen {
+    background-color: #5f9ea0;
     color: white;
-    border: none;
-    cursor: pointer;
-    width: 50%;
 }
 
-.team-photo {
-    width: 90%;
-    max-width: 500px;
-    margin: 20px 0;
-    display: block;
+.lightgreen {
+    background-color: #aaffee;
 }
 
-table {
-    width: 80%;
-    border-collapse: collapse;
-    text-align: left;
+/* Markazdagi matn */
+.center {
+    text-align: center;
 }
 
-th,
-td {
+/* Video qismi */
+.video-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Havolalar */
+.links {
+    margin-top: 20px;
     padding: 10px;
-    border: 1px solid #ccc;
 }
 
-.location iframe {
-    width: 100%;
-    border: none;
-    max-width: 800px;
-    height: 300px;
+.links a {
+    color: blue;
+    text-decoration: none;
 }
 
-.main {
-    color: white; text-align: center;
-    background-color: rgba(32, 32, 32, 0.826);
+.links a:hover {
+    text-decoration: underline;
+}
+
+/* Rasm */
+img {
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.with {
+    background-color: #87f6d6ad;
+    color: rgb(55, 1, 1);
+}
+
+.hacker {
+    background-color: rgba(20, 102, 3, 0.679);
+    color: greenyellow;
 }
